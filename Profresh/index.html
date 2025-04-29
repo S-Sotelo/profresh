@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profresh - Limpieza Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS de Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!-- JQuery (necesario para Slick) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- JS de Slick Carousel -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="assets/Logo%201.png" alt="Logo Profresh" class="logo-img">
+            </div>
+            <div class="nav-links">
+                <a href="#servicios">Nuestros Servicios</a>
+                <a href="#por-que-escogernos">¿Por qué elegirnos?</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contáctanos</a>
+            </div>
+            <a href="#contacto" class="contacto">Contáctanos</a>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </div>
+    </div>
+    
+
+<!-- Banner con Carrusel de Videos -->
+<div class="banner">
+    <div class="slider">
+      <div>
+        <video autoplay muted loop playsinline>
+          <source src="assets/banner-1.mp4" type="video/mp4">
+          Tu navegador no soporta video HTML5.
+        </video>
+      </div>
+      <div>
+        <video autoplay muted loop playsinline>
+          <source src="assets/banner-2.mp4" type="video/mp4">
+          Tu navegador no soporta video HTML5.
+        </video>
+      </div>
+      <div>
+        <video autoplay muted loop playsinline>
+          <source src="assets/banner-3.mp4" type="video/mp4">
+          Tu navegador no soporta video HTML5.
+        </video>
+      </div>
+    </div>
+  </div>
+  
+
+<section class="servicios" id="servicios">
+    <h2>Nuestros Servicios</h2>
+
+    <div class="servicios-cuadros">
+        <!-- Servicio 1 -->
+        <div class="servicio-cuadro">
+            <h3>Limpieza profunda de casas y departamentos</h3>
+            <p>Transformamos cada rincón de tu hogar con limpiezas profundas y detalladas. Utilizamos productos y maquinaria profesional para eliminar suciedad, grasa, polvo y bacterias, dejando cada espacio como nuevo. Ideal para limpiezas post arriendo, mudanzas o mantenimiento periódico.</p>
+            <div class="imagen">
+                <img src="assets/limpieza-casas.jpg" alt="Limpieza profunda de casas">
+                <img src="assets/limpieza-casas2.jpg" alt="Limpieza profunda de casas">
+                <img src="assets/limpieza-casas3.jpg" alt="Limpieza profunda de casas">
+            </div>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="servicio-cuadro">
+            <h3>Limpieza de oficinas y espacios corporativos</h3>
+            <p>Sabemos que un entorno limpio mejora la productividad. En ProFresh nos encargamos de mantener oficinas, salas de reuniones y áreas comunes impecables, con planes personalizados según la rutina de cada empresa.</p>
+            <div class="imagen">
+                <img src="assets/limpieza-oficinas.jpg" alt="Limpieza de oficinas">
+                <img src="assets/limpieza-oficinas2.jpg" alt="Limpieza de oficinas">
+                <img src="assets/limpieza-oficinas3.jpg" alt="Limpieza de oficinas">
+            </div>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="servicio-cuadro">
+            <h3>Limpieza de eventos</h3>
+            <p>Ofrecemos un servicio especializado para eventos masivos o privados. Nos encargamos de dejar todo limpio antes, durante y después del evento. Contamos con experiencia en eventos de gran escala como Red Bull y otros festivales reconocidos.</p>
+            <div class="imagen">
+                <img src="assets/limpieza-eventos.jpg" alt="Limpieza de eventos">
+                <img src="assets/limpieza-eventos2.jpg" alt="Limpieza de eventos">
+                <img src="assets/limpieza-eventos3.jpg" alt="Limpieza de eventos">
+            </div>
+        </div>
+
+        <!-- Servicio 4 -->
+        <div class="servicio-cuadro">
+            <h3>Limpiezas express para Airbnb y arriendos temporales</h3>
+            <p>Servicio rápido y detallado para departamentos de arriendo temporal. Dejamos todo listo para los próximos huéspedes: limpieza profunda, armado de camas, orden, reposición de insumos básicos y más.</p>
+            <div class="imagen">
+                <img src="assets/limpieza-airbnb.jpg" alt="Limpieza express Airbnb">
+                <img src="assets/limpieza-airbnb2.jpg" alt="Limpieza express Airbnb">
+                <img src="assets/limpieza-airbnb3.jpg" alt="Limpieza express Airbnb">
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+
+<section class="por-que-escogernos" id="por-que-escogernos">
+        <h2>¿Por qué elegir ProFresh?</h2>
+        <p>Nos destacamos por nuestro compromiso genuino con nuestros clientes. No somos una empresa más de limpieza; somos un equipo que valora la importancia de brindar un servicio completo, puntual y detallista.</p>
+        <div class="razones">
+            <div class="razon">
+                <i class="fa-regular fa-comments"></i>
+                <h3>Experiencia real y compromiso joven</h3>
+                <p>Combinamos la energía y mentalidad emprendedora con experiencia práctica en distintos tipos de limpieza.</p>
+            </div>
+            <div class="razon">
+                <i class="fa-regular fa-calendar-check"></i>
+                <h3>Tecnología y herramientas profesionales</h3>
+                <p>Usamos maquinaria de primer nivel para garantizar resultados superiores.</p>
+            </div>
+            <div class="razon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h3>Servicio personalizado y confiable</h3>
+                <p>Entendemos que cada cliente es distinto, por eso adaptamos nuestros servicios a tus necesidades.</p>
+            </div>
+            <div class="razon">
+                <i class="fa-solid fa-users"></i>
+                <h3>Puntualidad y confianza</h3>
+                <p>Somos responsables, cumplimos lo que prometemos y cuidamos cada espacio como si fuera nuestro.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+<!-- Sección Sobre Nosotros -->
+<section class="nosotros" id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>
+        Somos José Tomás y Florencia, dos jóvenes emprendedores de 27 y 24 años que fundamos ProFresh con un objetivo claro: transformar la industria de la limpieza en Chile, entregando un servicio profesional, confiable y de alta calidad.
+    </p>
+    <p>
+        La idea nació inspirada en la experiencia del padre de Florencia, quien trabajó en este rubro por años. Al ver el potencial del negocio y la necesidad de profesionalizar el servicio, decidimos continuar con esta visión y llevarla a un siguiente nivel.
+    </p>
+    <p>
+        Hoy, trabajamos con compromiso, maquinaria adecuada, productos certificados y un enfoque detallista que marca la diferencia.
+    </p>
+    <p>
+        Nuestro sueño es crecer, generar empleo de calidad y entrar a grandes licitaciones a nivel nacional. Pero antes, queremos ser reconocidos por hacer el trabajo bien, desde el primer día.
+    </p>
+</section>
+
+
+<section class="contacto-form" id="contacto">
+    <h2>Contáctanos</h2>
+    <p>Déjanos tu mensaje y te responderemos a la brevedad.</p>
+    <form action="#" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+        <label for="telefono">Teléfono:</label>
+        <div class="telefono-container">
+            <span class="prefix">+569</span>
+            <input type="tel" id="telefono" name="telefono" placeholder="Tu número" required>
+        </div>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+
+
+    <div class="footer">&copy; 2025 Profresh - Limpieza Profesional | Hecho con ❤️ por <a href="https://palafitodigital.cl">Palafito Digital</a></div>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/+56998970009" class="whatsapp-float" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+    </a>
+
+    <!-- Link al script.js -->
+    <script src="script.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>
